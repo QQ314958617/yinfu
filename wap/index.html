@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<!-- 主界面菜单同时移动 -->
+	    <!-- 侧滑导航根容器 -->
+	    <div class="mui-off-canvas-wrap mui-draggable">
+	        <!-- 主页面容器 -->
+	        <div class="mui-inner-wrap">
+	            <!-- 菜单容器 -->
+	            <aside class="mui-off-canvas-right" id="offCanvasSide">
+	                <div class="mui-scroll-wrapper">
+	                    <div class="mui-scroll">
+	                        <!-- 菜单具体展示内容 -->
+	                        <ul class="mui-table-view mui-table-view-chevron tiaoz">
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="index.html">蚓福首页</a></li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="产品列表.html">蚓福产品</a></li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">地龙蛋白</a>
+									<ul class="mui-table-view mui-table-view-chevron">
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="地龙蛋白.html">地龙与地龙蛋白</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="科学膳食.html">科学膳食</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="适应人群.html">适应人群</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="临床研究.html">临床研究</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="地龙功效与作用.html">功效与作用</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="原料选取.html">蚓福生物</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="科普知识.html">科普知识</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="常见问题.html">常见问题</a>	
+										</li>
+									</ul>
+								</li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="新闻中心.html">新闻中心</a></li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="招商加盟.html">招商加盟</a></li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">关于蚓福</a>
+									<ul class="mui-table-view mui-table-view-chevron">
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="公司介绍.html">公司介绍</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="公司历程.html">公司历程</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="公司愿景.html">公司愿景</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="专利资质.html">专利资质</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="专家介绍.html">专家介绍</a>
+										</li>
+									</ul>
+								</li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="联系我们.html">联系我们</a></li>
+							</ul>
+	                    </div>
+	                </div>
+	            </aside>
+	            <!-- 主页面标题 -->
+	            <header class="mui-bar mui-bar-nav">
+	                <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-right huibtn" href="#offCanvasSide"></a>
+	                <h1 class="mui-title tit"><img src="images/logo.png"/></h1>
+	            </header>
+	            <footer class="mui-bar mui-bar-tab foot">
+	    		    <a class="mui-tab-item mui-active" href="index.html">
+	    		        <span class="mui-icon iconfont">&#xe60b;</span>
+	    		        <span class="mui-tab-label">蚓福首页</span>
+	    		    </a>
+	    		    <a class="mui-tab-item" href="产品列表.html">
+	    		        <span class="mui-icon iconfont">&#xe614;</span>
+	    		        <span class="mui-tab-label">蚓福产品</span>
+	    		    </a>
+	    		    <a class="mui-tab-item" href="公司介绍.html">
+	    		        <span class="mui-icon iconfont">&#xe615;</span>
+	    		        <span class="mui-tab-label">关于蚓福</span>
+	    		    </a>
+	    		    <a class="mui-tab-item" href="联系我们.html">
+	    		        <span class="mui-icon iconfont">&#xe60a;</span>
+	    		        <span class="mui-tab-label">联系我们</span>
+	    		    </a>
+	    		</footer>
+	            <!-- 主页面内容容器 -->
+	            <div class="mui-content mui-scroll-wrapper">
+	                <div class="mui-scroll">
+	                    <!-- 主界面具体展示内容 -->
+	                    <div class="mui-slider yu_ms" >
+	                      <div class="mui-slider-group mui-slider-loop">
+	                         <div class="mui-slider-item">
+	                          <a href="#">
+	                            <img src="images/banner01.jpg">
+	                          </a>
+	                        </div>
+	                        <!-- 第二张 -->
+	                        <div class="mui-slider-item">
+	                          <a href="#">
+	                            <img src="images/banner01.jpg">
+	                          </a>
+	                        </div>
+	                        <!-- 第三张 -->
+	                        <div class="mui-slider-item">
+	                          <a href="#">
+	                            <img src="images/banner01.jpg">
+	                          </a>
+	                        </div>
+	                       
+	                      </div>
+	                      <div class="mui-slider-indicator inban">
+	                        <div class="mui-indicator mui-active"></div>
+	                        <div class="mui-indicator"></div>
+	                        <div class="mui-indicator"></div>
+	                      </div>
+	                    </div>
+	                    <!--banner 结束-->
+	                    <div class="zdf_zhz clearfix">
+	                    	<div class="zhz_tit">
+	                    		<img src="images/chengz01.png"/>
+	                    	</div>
+	                    	
+	                    	<ul class="zhzt_le">
+	                    		<li>
+	                    			<div class="zhz_tu01">
+	                    				<img src="images/chengz02.jpg"/>
+	                    			</div>
+	                    			<h4><span>体弱虚寒,手脚发冷,免疫力越来越差.</span></h4>
+	                    		</li>
+	                    		<li>
+	                    			<div class="zhz_tu03">
+	                    				<img src="images/chengz04.jpg"/>
+	                    			</div>
+	                    			<h4><span>心慌气短心跳快,上下楼梯太费劲.</span></h4>
+	                    		</li>
+	                    	</ul>
+	                    	<ul class="zhzt_ri">
+	                    		<li>
+	                    			<div class="zhz_tu02">
+	                    				<img src="images/chengz03.jpg"/>
+	                    			</div>
+	                    			<h4><span>心脑血管堵塞</span></h4>
+	                    		</li>
+	                    		<li class="zhz_h02">
+	                    			<div class="zhz_tu04">
+	                    				<img src="images/chengz05.jpg"/>
+	                    			</div>
+	                    			<h4><span>头晕耳鸣,睡眠差,手脚麻木,记性差.</span></h4>
+	                    		</li>
+	                    	</ul>
+	                    </div>
+	                    <div class="zdf_sw">
+	                    	<div class="sw_sj">
+	                    		<img src="images/swangl01.jpg"/>	
+	                    	</div>
+	                   		<div class="sw_rx clearfix">
+	                   			<div class="rx_le">
+	                   				<h5>全国热线咨询</h5>
+	                   				<h6>-National hotline</h6>
+	                   			</div>
+	                   			<div class="rx_ri">
+	                   				<h4><i class="iconfont">&#xe604;</i><span>400-602-2530</span></h4>
+	                   			</div>
+	                   		</div>
+	                    </div>
+	                    <div class="zdf_sj">
+	                    	<h5>城乡居民冠心病死亡变化趋势</h5>
+	                    	<p>老年人心脑血管病死亡趋势分析苏锡元就我区1980～1993年60岁以上老年居民心脑血管病死亡趋势作一分析。死亡医学证明书,由本站死因统计人员按ICD9标准调查核实。我区居民的总死亡率1980年为7.27％</p>
+	                    	<div class="sj_tub">
+	                    		<img src="images/shuj01.jpg"/>
+	                    	</div>
+	                    </div>
+	                    <div class="zdf_xuey">
+	                    	<div class="xuey_tit">
+	                    		<h4>血液堵塞<span>90%</span></h4>
+	                    		<h5>心脏<span>停止跳动</span></h5>
+	                    		<h6>90% BLOCKAGE OF BLOOD HEART STOPS BEATING</h6>
+	                    	</div>
+	                    	<ul class="clearfix">
+	                    		<li class="xue_le">
+	                    			<div class="xuey_img">
+	                    				<img src="images/xuey01.jpg"/>
+	                    			</div>
+	                    			<div class="xuey_js">
+	                    				<h5>血液堵塞0% </h5>
+	                    				<p>血液可以正常流通，无血管疾病症状</p>
+	                    			</div>
+	                    		</li>
+	                    		<li>
+	                    			<div class="xuey_img">
+	                    				<img src="images/xuey01.jpg"/>
+	                    			</div>
+	                    			<div class="xuey_js">
+	                    				<h5>血液堵塞30% </h5>
+	                    				<p>可能会导致心慌，心闷，机体疲劳乏力等症状</p>
+	                    			</div>
+	                    		</li>
+	                    		<li class="xue_le">
+	                    			<div class="xuey_img">
+	                    				<img src="images/xuey01.jpg"/>
+	                    			</div>
+	                    			<div class="xuey_js">
+	                    				<h5>血液堵塞60% </h5>
+	                    				<p>可能会导致糖尿病，脑梗塞，冠心病等症状</p>
+	                    			</div>
+	                    		</li>
+	                    		<li>
+	                    			<div class="xuey_img">
+	                    				<img src="images/xuey01.jpg"/>
+	                    			</div>
+	                    			<div class="xuey_js">
+	                    				<h5>血液堵塞90% </h5>
+	                    				<p>心血管疾病爆发，常见为猝死</p>
+	                    			</div>
+	                    		</li>
+	                    	</ul>
+	                    </div>
+	                    <div class="fuyong">
+	                    	<h5>中国药山协会著名医师建议 : </h5>
+	                    	<h5>1、40岁以上成年人；2、有心血管疾病；</h5>
+	                    	<h4>请服用地龙蛋白含片</h4>
+	                    </div>
+	                    <div class="zdf_bingfa">
+	                    	<ul class="clearfix">
+	                    		<li><img src="images/bingfa01.jpg"/></li>
+	                    		<li><span>腰腿疼痛</span></li>
+	                    		<li><img src="images/bingfa02.jpg"/></li>
+	                    		<li><span>头晕目眩</span></li>
+	                    		<li><img src="images/bingfa03.jpg"/></li>
+	                    		<li><span>视力模糊</span></li>
+	                    		<li><img src="images/bingfa04.jpg"/></li>
+	                    		<li class="binglast"><span>蚓福地龙含片让您告别由血管堵塞带来的疾病</span></li>
+	                    	</ul>
+	                    	<a class="bingmore" href="#">MORE <i class="iconfont">&#xe608;</i></a>
+	                    </div>
+	                    <div class="mui-slider chanp" >
+	                      <div class="mui-slider-group mui-slider-loop">
+	                       	<!-- 第一张 -->
+	                        <div class="mui-slider-item clearfix">
+	                          <a href="#">
+	                            <div class="chanp_img">
+	                            	<img src="images/chanp01_03.jpg"/>
+	                            </div>
+	                            <div class="chanp_js">
+	                            	<div class="chanp_bt">
+	                            		<h5>蚓福地龙蛋白</h5>
+	                            		<p>long blessed earthworm protein</p>
+	                            	</div>
+	                            	<a class="chamore" href="#">产看详情 <i class="iconfont">&#xe608;</i></a>
+	                            	<a class="chanpmore" href="#">MORE &nbsp;&nbsp;&nbsp;<i class="iconfont">&#xe608;</i></a>
+	                            </div>
+	                          </a>
+	                        </div>
+	                        <!-- 第二张 -->
+	                        <div class="mui-slider-item clearfix">
+	                          <a href="#">
+	                            <div class="chanp_img">
+	                            	<img src="images/chanp01_03.jpg"/>
+	                            </div>
+	                            <div class="chanp_js">
+	                            	<div class="chanp_bt">
+	                            		<h5>蚓福地龙蛋白</h5>
+	                            		<p>long blessed earthworm protein</p>
+	                            	</div>
+	                            	<a class="chamore" href="#">产看详情 <i class="iconfont">&#xe608;</i></a>
+	                            	<a class="chanpmore" href="#">MORE &nbsp;&nbsp;&nbsp;<i class="iconfont">&#xe608;</i></a>
+	                            </div>
+	                          </a>
+	                        </div>
+	                        <!-- 第三张 -->
+	                        <div class="mui-slider-item clearfix">
+	                          <a href="#">
+	                            <div class="chanp_img">
+	                            	<img src="images/chanp01_03.jpg"/>
+	                            </div>
+	                            <div class="chanp_js">
+	                            	<div class="chanp_bt">
+	                            		<h5>蚓福地龙蛋白</h5>
+	                            		<p>long blessed earthworm protein</p>
+	                            	</div>
+	                            	<a class="chamore" href="#">产看详情 <i class="iconfont">&#xe608;</i></a>
+	                            	<a class="chanpmore" href="#">MORE &nbsp;&nbsp;&nbsp;<i class="iconfont">&#xe608;</i></a>
+	                            </div>
+	                          </a>
+	                        </div>
+	                         
+	                      </div>
+	                      <div class="mui-slider-indicator inban">
+	                        <div class="mui-indicator mui-active"></div>
+	                        <div class="mui-indicator"></div>
+	                        <div class="mui-indicator"></div>
+	                      </div>
+	                    </div>
+	                    <div class="zdf_qingd">
+	                    	<div class="zdf_tit">
+	                    		<h4>血液的清道夫</h4>
+	                    		<p>BLOOD SCAVENGER</p>
+	                    	</div>
+	                    	<div class="qingd_ma">
+	                    		<ul class="clearfix">
+	                    			<li><img src="images/qingd01.jpg"/></li>
+									<li><i class="iconfont">&#xe605;</i><span>使用我们的产品前,血液堵塞严重</span><img src="images/qingd02.jpg"/></li>
+									<li><i class="iconfont">&#xe606;</i><span>使用我们的产品一段时间后,血液不在堵塞</span><img src="images/qingd02.jpg"/></li>
+									<li><i class="iconfont">&#xe607;</i><span>使用我们的产品之后,血液正常流动</span><img src="images/qingd02.jpg"/></li>
+	                    		</ul>
+	                    	</div>
+	                    </div>
+	                    <div class="zdf_yous">
+	                    	<div class="zdf_tit">
+	                    		<h4>我们的优势</h4>
+	                    		<p>OUR ADVANTAGE</p>
+	                    	</div>
+	                    	<div class="yous_ma">
+	                    		<ul class="clearfix">
+	                    		    <li>
+	                    		        <a href="#">
+	                    		            <div class="yous_img">
+	                    		            	<i class="iconfont">&#xe612;</i>
+	                    		            </div>
+	                    		            <span>100%纯天然萃取</span>
+	                    		        </a>
+	                    		    </li>
+	                    		    <li>
+	                    		        <a href="#">
+	                    		            <div class="yous_img">
+	                    		            	<i class="iconfont">&#xe60e;</i>
+	                    		            </div>
+	                    		            <span>国际专利</span>
+	                    		        </a>
+	                    		    </li>
+	                    		    <li>
+	                    		        <a href="#">
+	                    		            <div class="yous_img">
+	                    		            	<i class="iconfont">&#xe60c;</i>
+	                    		            </div>
+	                    		            <span>高吸收率</span>
+	                    		        </a>
+	                    		    </li>
+	                    		    <li>
+	                    		        <a href="#">
+	                    		            <div class="yous_img">
+	                    		            	<i class="iconfont">&#xe610;</i>
+	                    		            </div>
+	                    		            <span>100%纯天然萃取</span>
+	                    		        </a>
+	                    		    </li>
+	                    		    <li>
+	                    		        <a href="#">
+	                    		            <div class="yous_img">
+	                    		            	<i class="iconfont">&#xe60d;</i>
+	                    		            </div>
+	                    		            <span>100%纯天然萃取</span>
+	                    		        </a>
+	                    		    </li>
+	                    		    <li>
+	                    		        <a href="#">
+	                    		            <div class="yous_img">
+	                    		            	<i class="iconfont">&#xe60f;</i>
+	                    		            </div>
+	                    		            <span>100%纯天然萃取</span>
+	                    		        </a>
+	                    		    </li>
+	                    		</ul>
+	                    	</div>
+	                    	<div class="yous_do">
+	                    		<a class="youspmore" href="#">MORE &nbsp;&nbsp;&nbsp;<i class="iconfont">&#xe608;</i></a>
+	                    	</div>
+	                    </div>
+	                    <div class="zdf_new">
+	                    	<div class="zdf_tit">
+	                    		<h4>新闻资讯</h4>
+	                    		<p>NEWS INFORMATION</p>
+	                    	</div>
+	                    	<div class="newma">
+	                    		<div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+								    <div class="mui-scroll product news_b">
+								        <a class="mui-control-item mui-active" href="#item_news1">行业新闻 </a>
+								        <a class="mui-control-item" href="#item_news2">公司资讯</a>
+								        <a class="mui-control-item" href="#item_news3">常见问题</a>
+								    </div>
+							    </div>
+                                <div class="mui-slider-group newxi">
+				                    <div id="item_news1" class="mui-slider-item mui-control-content mui-active">
+				                        <div class="mui-scroll news_con">
+				                           <div class="news_con1 clearfix">
+				                             <a href="">
+					                           	  <div class="newspic">
+					                           	  	<img src="images/new01.jpg" alt="">
+					                           	  </div>
+					                           	  <div class="newsinfo">
+					                           	  	<h4 class="lr1">地龙蛋白心血管疾病福音</h4>
+					                           	  	<p class="lr4">产及销售、管理人员30多人，其中硕士以上人员占10%，本科占到90%是我国在地龙产及销售、管理人员30多人，其中硕士以上人员...</p>
+					                           	  </div>
+				                           	  </a>
+				                           	  <ul class="news_ul">
+				                           	  	<li class="lr1"><a href="">地龙蛋白心血管疾病福音</a><span><b></b>2016/07/28</span></li>
+				                           	  	<li class="lr1"><a href="">地龙蛋白心血管疾病福音</a><span><b></b>2016/07/28</span></li>
+				                           	  	<li class="lr1"><a href="">地龙蛋白心血管疾病福音</a><span><b></b>2016/07/28</span></li>
+				                           	  </ul>
+				                           </div>
+				                        </div>
+				                    </div>
+				                    <div id="item_news2" class="mui-slider-item mui-control-content">
+				                        <div class="mui-scroll news_con">
+				                           <div class="news_con1 clearfix">
+				                             <a href="">
+					                           	  <div class="newspic">
+					                           	  	<img src="images/new01.jpg" alt="">
+					                           	  </div>
+					                           	  <div class="newsinfo">
+					                           	  	<h4 class="lr1">地龙蛋白心血管疾病福音</h4>
+					                           	  	<p class="lr4">产及销售、管理人员30多人，其中硕士以上人员占10%，本科占到90%是我国在地龙产及销售、管理人员30多人，其中硕士以上人员...</p>
+					                           	  </div>
+				                           	  </a>
+				                           	  <ul class="news_ul">
+				                           	  	<li class="lr1"><a href="">地龙蛋白心血管疾病福音</a><span><b></b>2016/07/28</span></li>
+				                           	  	<li class="lr1"><a href="">地龙蛋白心血管疾病福音</a><span><b></b>2016/07/28</span></li>
+				                           	  	<li class="lr1"><a href="">地龙蛋白心血管疾病福音</a><span><b></b>2016/07/28</span></li>
+				                           	  </ul>
+				                           </div>
+				                        </div>
+				                    </div>
+				                    <div id="item_news3" class="mui-slider-item mui-control-content">
+				                        <div class="mui-scroll news_con">
+				                           <div class="news_con1 clearfix">
+				                             <a href="">
+					                           	  <div class="newspic">
+					                           	  	<img src="images/new01.jpg" alt="">
+					                           	  </div>
+					                           	  <div class="newsinfo">
+					                           	  	<h4 class="lr1">地龙蛋白心血管疾病福音</h4>
+					                           	  	<p class="lr4">产及销售、管理人员30多人，其中硕士以上人员占10%，本科占到90%是我国在地龙产及销售、管理人员30多人，其中硕士以上人员...</p>
+					                           	  </div>
+				                           	  </a>
+				                           	  <ul class="news_ul">
+				                           	  	<li class="lr1"><a href="">地龙蛋白心血管疾病福音</a><span><b></b>2016/07/28</span></li>
+				                           	  	<li class="lr1"><a href="">地龙蛋白心血管疾病福音</a><span><b></b>2016/07/28</span></li>
+				                           	  	<li class="lr1"><a href="">地龙蛋白心血管疾病福音</a><span><b></b>2016/07/28</span></li>
+				                           	  </ul>
+				                           </div>
+				                        </div>
+				                    </div>
+				                </div>
+				                <a class="youspmore" href="#">MORE &nbsp;&nbsp;&nbsp;<i class="iconfont">&#xe608;</i></a>
+		                    </div>
+	                    </div>
+	                </div>
+	            </div>
+	       	 <div class="mui-off-canvas-backdrop"></div>
+	        </div>
+	    </div>
+</body>
+<script type="text/javascript">
+			mui.ready(function(){
+				 loop("yu_ms");
+				 loop("chanp");
+				
+			});
+        
+		var gallery = mui('.mui-slider');
+		gallery.slider({
+		  interval:5000//自动轮播周期，若为0则不自动播放，默认为0；
+		});
+		var ulW=parseInt($('.zhzt_le').width());
+	    $('.zhzt_le').width(ulW);
+	    var ulWr=parseInt($('.zhzt_ri').width());
+	    $('.zhzt_ri').width(ulWr);
+</script>
+</html>

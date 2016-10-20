@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/PicCarousel.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<!-- 主界面菜单同时移动 -->
+	    <!-- 侧滑导航根容器 -->
+	    <div class="mui-off-canvas-wrap mui-draggable">
+	        <!-- 主页面容器 -->
+	        <div class="mui-inner-wrap">
+	            <!-- 菜单容器 -->
+	            <aside class="mui-off-canvas-right" id="offCanvasSide">
+	                <div class="mui-scroll-wrapper">
+	                    <div class="mui-scroll">
+	                        <!-- 菜单具体展示内容 -->
+	                        <ul class="mui-table-view mui-table-view-chevron tiaoz">
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="index.html">蚓福首页</a></li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="产品列表.html">蚓福产品</a></li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">地龙蛋白</a>
+									<ul class="mui-table-view mui-table-view-chevron">
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="地龙蛋白.html">地龙与地龙蛋白</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="科学膳食.html">科学膳食</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="适应人群.html">适应人群</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="临床研究.html">临床研究</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="地龙功效与作用.html">功效与作用</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="原料选取.html">蚓福生物</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="科普知识.html">科普知识</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="常见问题.html">常见问题</a>	
+										</li>
+									</ul>
+								</li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="新闻中心.html">新闻中心</a></li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="招商加盟.html">招商加盟</a></li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="#">关于蚓福</a>
+									<ul class="mui-table-view mui-table-view-chevron">
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="公司介绍.html">公司介绍</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="公司历程.html">公司历程</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="公司愿景.html">公司愿景</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="专利资质.html">专利资质</a>
+										</li>
+										<li class="mui-table-view-cell"><a class="mui-navigate-right" href="专家介绍.html">专家介绍</a>
+										</li>
+									</ul>
+								</li>
+								<li class="mui-table-view-cell mui-collapse"><a class="mui-navigate-right" href="联系我们.html">联系我们</a></li>
+							</ul>
+	                    </div>
+	                </div>
+	            </aside>
+	            <!-- 主页面标题 -->
+	            <header class="mui-bar mui-bar-nav xbk">
+	                <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-right huibtn" href="#offCanvasSide"></a>
+	                <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left fanh"></a>
+	                <h1 class="mui-title">招商加盟</h1>
+	            </header>
+	            <footer class="mui-bar mui-bar-tab foot">
+	    		    <a class="mui-tab-item" href="index.html">
+	    		        <span class="mui-icon iconfont">&#xe60b;</span>
+	    		        <span class="mui-tab-label">蚓福首页</span>
+	    		    </a>
+	    		    <a class="mui-tab-item" href="产品列表.html">
+	    		        <span class="mui-icon iconfont">&#xe614;</span>
+	    		        <span class="mui-tab-label">蚓福产品</span>
+	    		    </a>
+	    		    <a class="mui-tab-item" href="公司介绍.html">
+	    		        <span class="mui-icon iconfont">&#xe615;</span>
+	    		        <span class="mui-tab-label">关于蚓福</span>
+	    		    </a>
+	    		    <a class="mui-tab-item" href="联系我们.html">
+	    		        <span class="mui-icon iconfont">&#xe60a;</span>
+	    		        <span class="mui-tab-label">联系我们</span>
+	    		    </a>
+	    		</footer>
+	            <!-- 主页面内容容器 -->
+	            <div class="mui-content mui-scroll-wrapper">
+	                <div class="mui-scroll">
+	                    <!-- 主界面具体展示内容 -->
+	                  	<div class="zsjm_main">
+	                  		<div class="zsjmls01">
+	                  			<img src="images/zsjm01.jpg"/>
+	                  		</div>	
+	                  		<div class="zsjmls02">
+	                  			<img src="images/zsjm02.jpg"/>
+	                  		</div>
+	                  		<div class="zsjmls03">
+	                  			<img src="images/zsjm03.jpg"/>
+	                  			<h5>关爱富豪人群品质生活</h5>
+	                  			<h4>市场高达<span>600亿</span>中国地龙市场</h4>
+	                  			<p>老年人心脑血管病死亡趋势分析苏锡元就我区1980～1993年60岁以上老年居民心脑血管病死亡趋势作一分析。死亡医学证明书由本站死因统计人员按ICD9标准调查核实。我区居民的总死亡率1980年为7.27％。</p>
+	                  		</div>
+	                  		<div class="zsjmls04">
+	                  			<div class="zsjm_tit">
+	                  				<h4>市场分析</h4>
+	                  				<h5>PROSPECTS</h5>
+	                  			</div>
+	                  			<ul>
+	                  				<li>
+	                  					<div class="clearfix">
+	                  						<div class="scfx_img">
+	                  							<img src="images/zsjm04.png"/>
+	                  						</div>
+	                  						<div class="scfx_wen">
+	                  							<h6>市场分析</h6>
+	                  							<p>市场分析的主要目的是研究商品潜在销售量，开括潜在市场，安排好商品地区之间的合理分配。</p>
+	                  						</div>
+	                  					</div>
+	                  				</li>
+	                  				<li>
+	                  					<div class="clearfix">
+	                  						<div class="scfx_img">
+	                  							<img src="images/zsjm05.png"/>
+	                  						</div>
+	                  						<div class="scfx_wen">
+	                  							<h6>客户分析</h6>
+	                  							<p>市场分析的主要目的是研究商品潜在销售量，开括潜在市场，安排好商品地区之间的合理分配。</p>
+	                  						</div>
+	                  					</div>
+	                  				</li>
+	                  				<li>
+	                  					<div class="clearfix">
+	                  						<div class="scfx_img">
+	                  							<img src="images/zsjm06.png"/>
+	                  						</div>
+	                  						<div class="scfx_wen">
+	                  							<h6>销售分析</h6>
+	                  							<p>市场分析的主要目的是研究商品潜在销售量，开括潜在市场，安排好商品地区之间的合理分配。</p>
+	                  						</div>
+	                  					</div>
+	                  				</li>
+	                  				<li>
+	                  					<div class="clearfix">
+	                  						<div class="scfx_img">
+	                  							<img src="images/zsjm07.png"/>
+	                  						</div>
+	                  						<div class="scfx_wen">
+	                  							<h6>盈利分析</h6>
+	                  							<p>市场分析的主要目的是研究商品潜在销售量，开括潜在市场，安排好商品地区之间的合理分配。</p>
+	                  						</div>
+	                  					</div>
+	                  				</li>
+	                  			</ul>
+	                  		</div>
+	                  		<div class="zsjmls05">
+	                  			<div class="zsjm_tit">
+	                  				<h4>我们的优势</h4>
+	                  				<h5>JOIN ADVANTAGE</h5>
+	                  			</div>
+	                  			<ul class="clearfix xiaomi">
+	                  				<li>
+	                  					<span>1</span>
+	                  					<h6>品牌优势</h6>
+	                  					<p>市场分析的主要目的是研究商品潜在销售量，开括潜在市场，安排好商品地区之间的合理分配。</p>
+	                  				</li>
+	                  				<li>
+	                  					<span>2</span>
+	                  					<h6>产品特点</h6>
+	                  					<p>市场分析的主要目的是研究商品潜在销售量，开括潜在市场，安排好商品地区之间的合理分配。</p>
+	                  				</li>
+	                  				<li>
+	                  					<span>3</span>
+	                  					<h6>品牌优势</h6>
+	                  					<p>市场分析的主要目的是研究商品潜在销售量，开括潜在市场，安排好商品地区之间的合理分配。</p>
+	                  				</li>
+	                  				<li>
+	                  					<img src="images/zsjm10.jpg"/>
+	                  				</li>
+	                  			</ul>
+	                  		</div>
+	                  		<div class="zsjmls06">
+	                  			<div class="zsjm_tit">
+	                  				<h4>加盟政策</h4>
+	                  				<h5>AFFILIATE POLICY</h5>
+	                  			</div>
+	                  			<ul class="clearfix">
+	                  				<li>
+	                  					<span></span>
+	                  					<b>产品支持</b>
+	                  				</li>
+	                  				<li>
+	                  					<span></span>
+	                  					<b>服务支持</b>
+	                  				</li>
+	                  				<li>
+	                  					<span></span>
+	                  					<b>工程支持</b>
+	                  				</li>
+	                  				<li>
+	                  					<span></span>
+	                  					<b>宣传支持</b>
+	                  				</li>
+	                  				<li>
+	                  					<span></span>
+	                  					<b>活动支持</b>
+	                  				</li>
+	                  				<li>
+	                  					<span></span>
+	                  					<b>年终返利</b>
+	                  				</li>
+	                  			</ul>
+	                  		</div>
+	                  		<div class="zsjmls07">
+	                  			<div class="zsjm_tit">
+	                  				<h4>加盟案例</h4>
+	                  				<h5>AFFILIATE CASE</h5>
+	                  			</div>
+	                  			<div class="poster-main B_Demo">
+									<div class="poster-btn poster-prev-btn"></div>
+									<ul class="poster-list">
+										<li class="poster-item clearfix">
+											<img src="images/zsjm18.jpg" width="190px" >
+											<h4><i>王总</i><span>2016/2/12</span><b>6千万营业额</b></h4>
+											<p>今年27岁的黄东是温州人，大学毕业当年，黄东在青岛市经济技术开发区宝丰美食城内开设了一家主题餐厅。</p>
+										</li>
+										<li class="poster-item clearfix">
+											<img src="images/zsjm18.jpg" width="190px" >
+											<h4><i>王总</i><span>2016/2/12</span><b>6千万营业额</b></h4>
+											<p>今年27岁的黄东是温州人，大学毕业当年，黄东在青岛市经济技术开发区宝丰美食城内开设了一家主题餐厅。</p>
+										</li>
+										<li class="poster-item clearfix">
+											<img src="images/zsjm18.jpg" width="190px" >
+											<h4><i>王总</i><span>2016/2/12</span><b>6千万营业额</b></h4>
+											<p>今年27岁的黄东是温州人，大学毕业当年，黄东在青岛市经济技术开发区宝丰美食城内开设了一家主题餐厅。</p>
+										</li>
+										<li class="poster-item clearfix">
+											<img src="images/zsjm18.jpg" width="190px" >
+											<h4><i>王总</i><span>2016/2/12</span><b>6千万营业额</b></h4>
+											<p>今年27岁的黄东是温州人，大学毕业当年，黄东在青岛市经济技术开发区宝丰美食城内开设了一家主题餐厅。</p>
+										</li>
+										<li class="poster-item clearfix">
+											<img src="images/zsjm18.jpg" width="190px" >
+											<h4><i>王总</i><span>2016/2/12</span><b>6千万营业额</b></h4>
+											<p>今年27岁的黄东是温州人，大学毕业当年，黄东在青岛市经济技术开发区宝丰美食城内开设了一家主题餐厅。</p>
+										</li>
+									</ul>
+									<div class="poster-btn poster-next-btn"></div>
+								</div>
+	                  		</div>
+	                  		<div class="zsjmls08">
+	                  			<div class="zsjm_tit">
+	                  				<h4>加盟条件</h4>
+	                  				<h5>JOIN CONDITIONS</h5>
+	                  			</div>
+	                  			<ul>
+	                  				<li>
+	                  					<span>01</span>
+	                  					<div class="jmwen">
+	                  						<p>认同公司的企业文化、经营理念</p>
+	                  					</div>
+	                  				</li>
+	                  				<li>
+	                  					<span>02</span>
+	                  					<div class="jmwen">
+	                  						<p>有良好的商业心悦和市场口碑</p>
+	                  					</div>
+	                  				</li>
+	                  				<li>
+	                  					<span>03</span>
+	                  					<div class="jmwen">
+	                  						<p>依据公司管理要求展开经营活动</p>
+	                  					</div>
+	                  				</li>
+	                  				<li>
+	                  					<span>04</span>
+	                  					<div class="jmwen">
+	                  						<p>有营养食品，保健品或相关快消品的商业经验</p>
+	                  					</div>
+	                  				</li>
+	                  				<li>
+	                  					<span>05</span>
+	                  					<div class="jmwen">
+	                  						<p>店面营业地址，应当地主流市场，拥有稳定客源和人流量</p>
+	                  					</div>
+	                  				</li>
+	                  				<li>
+	                  					<span>06</span>
+	                  					<div class="jmwen">
+	                  						<p>熟悉当地市场，与并有很强的市场开括能力和外部公关能力</p>
+	                  					</div>
+	                  				</li>
+	                  			</ul>
+	                  		</div>
+	                  		<div class="zsjmls09">
+	                  			<img src="images/zsjm19.jpg"/>
+	                  		</div>
+	                  		<div class="zsjmls10">
+	                  			<div class="zsjm_tit">
+	                  				<h4>加盟流程</h4>
+	                  				<h5>JOINING PROCESS</h5>
+	                  			</div>
+	                  			<div class="biaodan">
+	                  				<form action="">
+						 				<div class="jly_le">
+						 					<div class="lput">
+						 						姓名：<input class="xingm" type="text" id="" value="" />
+						 						<div class="dui pa"></div>
+				                        		<div class="cuo pa"></div>
+						 					</div>
+						 					<div class="lput">
+						 						电话：<input class="dianhs" type="text" id="" value="" />
+						 						<div class="dui pa"></div>
+				                        		<div class="cuo pa"></div>
+						 					</div>
+						 					<div class="lput">
+						 						邮箱：<input class="youx" type="text" id="" value="" />
+						 						<div class="dui pa"></div>
+				                        		<div class="cuo pa"></div>
+						 					</div>
+						 					<div class="lput">
+						 						地址：<input class="dizhia" type="text" id="" value="" />
+						 						<div class="dui pa"></div>
+				                        		<div class="cuo pa"></div>
+						 					</div>
+							 			</div>
+							 			<div class="jly_ri">
+							 				<span>内容：</span><textarea id="message" name="" rows="" cols=""></textarea>
+							 				<input class="chongz" type="reset" name="" id="" value="重置" />
+							 				<input class="yijia" type="submit" value="提交申请"/>
+							 			</div>
+						 			</form>
+	                  			</div>
+	                  		</div>
+	                  		
+	                  	</div>
+	                  	
+	                </div>
+	            </div>
+	       	 <div class="mui-off-canvas-backdrop"></div>
+	        </div>
+	    </div>
+</body>
+<script type="text/javascript">
+$(".B_Demo").PicCarousel({
+	"width":305,		//幻灯片的宽度
+	"height":190,		//幻灯片的高度
+	"posterWidth":190,	//幻灯片第一帧的宽度
+	"posterHeight":190, //幻灯片第一张的高度
+	"scale":0.8,		//记录显示比例关系
+	"speed":500,		//记录幻灯片滚动速度
+	"autoPlay":true,	//是否开启自动播放
+	"delay":1000,		//自动播放间隔
+	"verticalAlign":"middle"	//图片对齐位置
+});
+</script>
+
+<script type="text/javascript">
+		var xmv1 = $('.xingm');
+	    var re1 = /^[\u4e00-\u9fa5 ]{2,20}$/;
+	    var xmv2 =  $(".dianhs");
+	    var re2 = /^1[3-9]\d{9}$/;
+	    var xmv3 =  $(".youx");
+	    var re3 = /^[\w\+\-]+(\.[\w\+\-]+)*@[a-z\d\-]+(\.[a-z\d\-]+)*\.([a-z]{2,4})$/i;
+	    var xmv4 =  $(".dizhia");
+	    var re4 = /^.{3,50}$/; 
+	  function allyz (inputobject,methods){
+	        if(inputobject.val() !="" || inputobject.val() != null)
+	        {
+	            if(methods.test(inputobject.val()))
+	            {
+	                inputobject.parent('.lput').find(".dui").show();
+	                inputobject.parent('.lput').find(".cuo").hide();
+	                return 1;
+	            }else{
+	                inputobject.parent('.lput').find(".cuo").show();
+	                inputobject.parent('.lput').find(".dui").hide();
+	                return 0;
+	            }
+	        }
+	    }
+	
+	    $(function(){
+	        $(".yijia").click(function(){
+	            if(allyz(xmv1,re1) == 0){
+	               
+	            }
+	            if(allyz(xmv2,re2) == 0){
+	                
+	            }
+	            if(allyz(xmv3,re3) == 0){
+	                
+	            }
+	            if(allyz(xmv4,re4) == 0){
+	                
+	            }
+	            if($("#message").val() == ''){
+	              }
+	              return false;
+	        });
+	        $(".chongz").click(function(){
+	            $(".lput .dui").hide();
+	            $(".lput .cuo").hide()
+	        });
+	    });
+	</script>
+</html>
